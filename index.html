@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -512,5 +512,184 @@ a {
 </ul>
 </div>
 </div>
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweaky Tool API Documentation</title>
+</head>
+<body>
+    <h1>Tweaky Tool API Documentation</h1>
+
+    <h2>Table of Contents</h2>
+    <ul>
+        <li><a href="#Authenticate">Authenticate</a></li>
+        <li><a href="#version">Version</a></li>
+        <li><a href="#today">Today</a></li>
+        <li><a href="#license-remaining">License Remaining</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="#product-config">Product Configuration</a></li>
+        <li><a href="#install-software">Install Software</a></li>
+        <li><a href="#uninstall-software">Uninstall Software</a></li>
+        <li><a href="#renew-now">Renew Now</a></li>
+    </ul>
+
+    <h2 id="Authenticate">Authenticate</h2>
+    <h3>Description</h3>
+    <p>Authenticates the user.</p>
+    <h3>Request</h3>
+    <ul>
+        <li><strong>Method:</strong> GET</li>
+        <li><strong>URL:</strong> <a href="https://www.tweakytools.com/api/authenticate">https://www.tweakytools.com/api/authenticate</a></li>
+        <li><strong>Headers:</strong>
+            <ul>
+                <li>Authorization: 4903927f9a5d0fa8b4d817db1acae454</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Response</h3>
+    <p>No response defined</p>
+
+    <h2 id="version">Version</h2>
+    <h3>Description</h3>
+    <p>Gets the version information.</p>
+    <h3>Request</h3>
+    <ul>
+        <li><strong>Method:</strong> GET</li>
+        <li><strong>URL:</strong> <a href="https://www.tweakytools.com/api/version">https://www.tweakytools.com/api/version</a></li>
+        <li><strong>Headers:</strong>
+            <ul>
+                <li>Authorization: 4903927f9a5d0fa8b4d817db1acae454</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Response</h3>
+    <p>No response defined</p>
+
+    <!-- Repeat similar structure for other endpoints -->
+
+    <h2 id="today">Today</h2>
+    <h3>Description</h3>
+    <p>Gets information about today.</p>
+    <h3>Request</h3>
+    <ul>
+        <li><strong>Method:</strong> GET</li>
+        <li><strong>URL:</strong> <a href="https://www.tweakytools.com/api/today">https://www.tweakytools.com/api/today</a></li>
+        <li><strong>Headers:</strong>
+            <ul>
+                <li>Authorization: 4903927f9a5d0fa8b4d817db1acae454</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Response</h3>
+    <p>No response defined</p>
+
+    <h2 id="license-remaining">License Remaining</h2>
+    <h3>Description</h3>
+    <p>Gets information about the remaining license.</p>
+    <h3>Request</h3>
+    <ul>
+        <li><strong>Method:</strong> GET</li>
+        <li><strong>URL:</strong> <a href="https://www.tweakytools.com/api/license-remaining">https://www.tweakytools.com/api/license-remaining</a></li>
+        <li><strong>Headers:</strong>
+            <ul>
+                <li>Authorization: 4903927f9a5d0fa8b4d817db1acae454</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Response</h3>
+    <p>No response defined</p>
+
+    <h2 id="products">Products</h2>
+    <h3>Description</h3>
+    <p>Gets information about products.</p>
+    <h3>Request</h3>
+    <ul>
+        <li><strong>Method:</strong> GET</li>
+        <li><strong>URL:</strong> <a href="https://www.tweakytools.com/api/products">https://www.tweakytools.com/api/products</a></li>
+        <li><strong>Headers:</strong>
+            <ul>
+                <li>Authorization: 4903927f9a5d0fa8b4d817db1acae454</li>
+            </ul>
+        </li>
+    </ul>
+    <h3>Response</h3>
+    <p>No response defined</p>
+
+    <h2 id="product-config">Product Configuration</h2>
+    <h3>Description</h3>
+    <p>Gets configuration information about a product.</p>
+    <h3>Request</h3>
+    <ul>
+        <li><strong>Method:</strong> GET</li>
+        <li><strong>URL:</strong> <a href="https://www.tweakytools.com/api/product-config?id=1">https://www.tweakytools.com/api/product-config?id=1</a></li>
+        <li><strong>Headers:</strong>
+            <ul>
+                <li>Authorization: 4903927f9a5d0fa8b4d817db1acae454</li>
+            </ul>
+        </li>
+        <li><strong>Body:</strong>
+            <pre>
+{
+    "id": 1
+}
+            </pre>
+        </li>
+    </ul>
+    <h3>Response</h3>
+    <p>No response defined</p>
+
+    <h2 id="install-software">Install Software</h2>
+    <h3>Description</h3>
+    <p>Description for install-software.</p>
+    <h3>Request</h3>
+    <ul>
+        <li><strong>Method:</strong> POST</li>
+        <li><strong>URL:</strong> <a href="#">[URL]</a></li>
+        <li><strong>Headers:</strong>
+            <ul>
+                <li>Authorization: [Token]</li>
+            </ul>
+        </li>
+        <li><strong>Body:</strong>
+            <pre>
+{
+    "data": "sample data"
+}
+            </pre>
+        </li>
+    </ul>
+    <h3>Response</h3>
+    <p>Response for install-software.</p>
+    <h3>Sample Request</h3>
+    <pre>
+        <code>
+            POST /api/install-software HTTP/1.1
+            Host: www.tweakytools.com
+            Authorization: 4903927f9a5d0fa8b4d817db1acae454
+            Content-Type: application/json
+
+            {
+                "data": "sample data"
+            }
+        </code>
+    </pre>
+    <h3>Sample Response</h3>
+    <pre>
+        <code>
+            HTTP/1.1 200 OK
+            Content-Type: application/json
+
+            {
+                "status": "success",
+                "message": "Software installed successfully"
+            }
+        </code>
+    </pre>
 </body>
 </html>
