@@ -7,4 +7,3 @@ layout: default
 title: Tweaky Tool
 description: Draft version of the API documentation 
 show_downloads: false
-remote_theme: pages-themes/cayman@v0.2.0
